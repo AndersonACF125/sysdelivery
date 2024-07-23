@@ -336,7 +336,7 @@ $nomeX		 		= $dadosgerais->nome;
     <div class="container">
       <div class="row">
         <div class="col-md-12 my-3 text-center">
-          <p class="text-muted">© <?=date("Y");?> - <?=$dadosgerais->nomedosite;?> - Todos direitos reservados. Versão 2.0.12</p>
+          <p class="text-muted">© <?=date("Y");?> - <?=$dadosgerais->nomedosite;?> - Todos direitos reservados. Versão 2.0.12 - CNPJ: 56.052.083/0001-17</p>
         </div>
       </div>
     </div>
