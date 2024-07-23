@@ -1,0 +1,14 @@
+[20-Mar-2021 14:35:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blue-ar-l-rn-none'>Suscribirme</a>
+<script type="text/javascript">
+   (functio' at line 1 in /home/lo6asund/public_html/master/configuracoes.php:18
+Stack trace:
+#0 /home/lo6asund/public_html/master/configuracoes.php(18): PDO->query('UPDATE adm SET ...')
+#1 {main}
+  thrown in /home/lo6asund/public_html/master/configuracoes.php on line 18
+[20-Mar-2021 14:35:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blue-ar-l-rn-none'>Suscribirme</a>
+<script type="text/javascript">
+   (functio' at line 1 in /home/lo6asund/public_html/master/configuracoes.php:18
+Stack trace:
+#0 /home/lo6asund/public_html/master/configuracoes.php(18): PDO->query('UPDATE adm SET ...')
+#1 {main}
+  thrown in /home/lo6asund/public_html/master/configuracoes.php on line 18
