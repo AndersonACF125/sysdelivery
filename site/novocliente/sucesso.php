@@ -30,8 +30,8 @@ $novocli	= $confgadm->novocliente;
         <div class="row row-xs mg-b-10">
           <div class="col-sm">
 		  	<strong>Sua url personalizada:</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?></span><br><br>
-			<strong>Painel Administrativo:</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?>/master</span><br>
-			<strong>Painel PDV (cadastrar no painel Admin usuário):</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?>/pdv</span><br>
+			<strong>Painel Administrativo:</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?>/master</span><br><br>
+			<strong>Painel PDV (cadastrar no painel Admin usuário):</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?>/pdv</span><br><br>
 			<strong>Painel Cozinha (cadastrar no painel Admin usuário):</strong><br><span style="color:#006699"><?php print $urlmaster; ?>/<?php print $url; ?>/cozinha</span><br>
 
 		  </div>
