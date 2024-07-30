@@ -38,7 +38,7 @@ $nomeX		 		= $dadosgerais->nome;
     <div class="container pt-5 pb-4">
       <div class="row">
         <div class="text-lg-left text-left align-self-left pt-4 col-md-6 py-3" style="">
-          <h2 class="text-dark"><b class="">Pedidos completos direto no seu <b class="text-success">WhatsApp</b> por apenas <b class="bg-success">R$4,33</b> por dia. Planos Mensal, Trimestral, Semestral e Anual.</b></h2>
+          <h2 class="text-dark"><b class="">Pedidos completos direto no seu <b class="text-success">WhatsApp</b> por apenas <b class="bg-success">R$3,67</b> por dia. Planos Mensal, Trimestral, Semestral e Anual.</b></h2>
           <p class="text-dark"><b>Facilidade para você e para o seu cliente!<br></b><br>
             <i class="fa fa-check-circle text-primary" aria-hidden="true"></i> Você envia o seu catálogo através de um link ou qrcode<br>
             <i class="fa fa-check-circle text-primary" aria-hidden="true"></i> O cliente escolhe os produtos, e monta o pedido<br>

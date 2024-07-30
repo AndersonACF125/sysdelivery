@@ -33,9 +33,10 @@ $modelo = $_SESSION['modelo'];
         </div>
 		<div class="signup-separator" style="margin-top:20px;"><span>DADOS PARA ACESSO A CONTA</span></div>
         <div class="row row-xs mg-b-10">
-          <div class="col-sm"><input type="text" name="cpf" id="cpf" class="form-control" placeholder="CPF ou CNPJ" required>
-		  <label style="font-size:10px">Será utilizado como login.</label>
-		  </div>
+        <div class="col-sm">
+    <input type="text" name="cpf" id="cpf" class="form-control" placeholder="CPF" required>
+    <label style="font-size:10px">Será utilizado como login.</label>
+  </div>
           <div class="col-sm mg-t-10 mg-sm-t-0"><input type="password" class="form-control" name="senha" placeholder="Informe uma senha" maxlength="8" required>
 		  <label style="font-size:10px">Máximo de oito caracteres.</label>
 		  </div>

@@ -97,6 +97,15 @@ $sitexx = HOME;
 		   <li class="sidebar-nav-item">
             <a href="bairros.php" class="sidebar-nav-link"><i class="fa fa-car mg-r-10" style="font-size:16px"></i> Delivery e Taxas</a>
           </li>
+          <li class="sidebar-nav-item">
+            <a href="motoboy.php" class="sidebar-nav-link"><i class="fa fa-motorcycle mg-r-10" style="font-size:16px"></i> Motoboy</a>
+          </li>
+		   <li class="sidebar-nav-item">
+            <a href="cadastrar_cupons.php" class="sidebar-nav-link"><i class="fa fa-ticket mg-r-10" style="font-size:16px"></i> Cupom de Desconto</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="motoboy.php" class="sidebar-nav-link"><i class="fa fa-money mg-r-10" style="font-size:16px"></i> Formas de Pagamento</a>
+          </li>
 		   <li class="sidebar-nav-item">
             <a href="categorias.php" class="sidebar-nav-link"><i class="fa fa-server mg-r-10" style="font-size:16px"></i> Categorias</a>
           </li>

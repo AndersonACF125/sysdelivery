@@ -16,6 +16,10 @@ $nomeempresa 		= $dadosgerais->nomeempresa;
 $dadcat 			= $connect->query("SELECT * FROM categorias WHERE idu =  '$cod_id' ORDER BY posicao ASC");
 $dadpro 			= $connect->query("SELECT * FROM produtos WHERE idu =  '$cod_id' ORDER BY nome ASC");
 $func               = $connect->query("SELECT * FROM funcionarios WHERE idu='$cod_id' ORDER BY nome ASC");
+$moto               = $connect->query("SELECT * FROM motoboy WHERE idu='$cod_id' ORDER BY nome ASC");
+$cp			    = $connect->query("SELECT * FROM cupons")->fetchAll(PDO::FETCH_OBJ);
+
+
 
 
 //
@@ -60,6 +64,51 @@ if ( $delb ) { header("location: funcionarios.php?ok=ok"); exit; } else { header
 }
 
 //
+
+
+// motoboy
+
+if(isset($_POST["cadmoto"]))  {
+	$cad_nome 		= $_POST['cad_nome'];
+	$cad_whatsapp		= $_POST['cad_whatsapp'];
+	$cadmoto = $connect->query("INSERT INTO motoboy (idu, nome, whatsapp) VALUES ('$cod_id','$cad_nome','$cad_whatsapp')");
+	if ( $cadmoto ) { header("location: motoboy.php?ok=ok"); exit; } else { header("location: motoboy.php?erro=erro"); exit; }
+	}
+	
+	//
+	
+	if(isset($_POST["delmoto"]))  {
+	$delb = $connect->query("DELETE FROM motoboy WHERE id='".$_POST['delmoto']."'");
+	if ( $delb ) { header("location: motoboy.php?ok=ok"); exit; } else { header("location: motoboy.php?erro=erro"); exit; }
+	}
+	
+	//
+
+
+	// cupom desc
+
+if(isset($_POST["cadcupom"]))  {
+	$cad_id_cupom 		    = $_POST['cad_id_cupom'];
+	$cad_ativacao		    = $_POST['cad_ativacao'];
+	$cad_porcentagem		= $_POST['cad_porcentagem'];
+	$cad_total_vezes		= $_POST['cad_total_vezes'];
+	$cad_data_validade		= $_POST['cad_data_validade'];
+
+	$cadcupom = $connect->query("INSERT INTO cupom_desconto (id_cupom, ativacao, porcentagem, data_validade, total_vezes) VALUES ('$cad_id_cupom','$cad_ativacao','$cad_porcentagem','$cad_quantidade','$cad_data_validade','$cad_total_vezes')");
+	if ( $cadcupom ) { header("location: cadastrar_cupons.php?ok=ok"); exit; } else { header("location: cadastrar_cupons.php?erro=erro"); exit; }
+	}
+	
+	//
+	
+	if(isset($_POST["delcupom"]))  {
+	$delb = $connect->query("DELETE FROM cupons WHERE id='".$_POST['delcupom']."'");
+	if ( $delb ) { header("location: cadastrar_cupons.php?ok=ok"); exit; } else { header("location: cadastrar_cupons.PHP?erro=erro"); exit; }
+	}
+	
+	//
+
+
+
 
 if(isset($_POST["editarempresa"]))  {
 

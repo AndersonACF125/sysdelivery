@@ -1,8 +1,8 @@
 <?php
 $servidor = 'localhost';
-$usuario  = 'anddec10_ei';
-$senha 	  = 'Mel540879@';
-$banco    = 'anddec10_ei';
+$usuario  = 'root';
+$senha 	  = '';
+$banco    = 'sys_delivery';
 
 // FUNCOES DO SISTEMA DE CADASTRO ###########
 

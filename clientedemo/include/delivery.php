@@ -247,8 +247,9 @@ if($produtoscx==0){ header("location: ".$site.""); exit; }
 								<label class="form-control-label">Forma de Pagamento: <span class="tx-danger">*</span></label>
 								<select id="options" class="form-control select2" onchange="verifica(this.value)" name="fmpgto" required>
 								<option value="" disabled selected><b>Selecione...</b></option>
-								<option value="DINHEIRO">Dinheiro</option>
-								<option value="CARTAO">Cartão</option>
+								<option value="DINHEIRO">Dinheiro(na entrega)</option>
+								<option value="CARTAO">Cartão Débito (na entrega)</option>
+								<option value="CARTAO">Cartão Crédito (na entrega)</option>
 								</select>
 								</div>
 							</div>

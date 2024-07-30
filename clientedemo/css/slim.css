@@ -1294,8 +1294,8 @@ pre {
     background-color: rgba(0, 0, 0, 0.075); }
 
 .table .thead-dark th {
-  color: #f0f2f7;
-  background-color: #212529;
+  color: #0d0d0e;
+  background-color: #f0f2f7;
   border-color: #32383e; }
 
 .table .thead-light th {
@@ -6823,7 +6823,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-purple {
   color: #fff;
-  background-color: #6f42c1;
+  background-color: black;
   border-color: #643ab0; }
   .btn-purple:hover {
     color: #fff;
@@ -6833,7 +6833,7 @@ a.text-dark:hover, a.text-dark:focus {
     box-shadow: 0 0 0 0.2rem rgba(100, 58, 176, 0.5); }
   .btn-purple.disabled, .btn-purple:disabled {
     color: #fff;
-    background-color: #6f42c1;
+    background-color: black;
     border-color: #643ab0; }
   .btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
   .show > .btn-purple.dropdown-toggle {
